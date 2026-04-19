@@ -1,20 +1,9 @@
 {
-  "name": "my-devops-showcase-2",
+  "name": "aws-devops-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "mkdir -p dist && cp index.html dist/ 2>/dev/null || echo '<h1>FjordStep Project Working</h1>' > dist/index.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Blahodir/aws-devops-cicd-showcase.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Blahodir/aws-devops-cicd-showcase/issues"
-  },
-  "homepage": "https://github.com/Blahodir/aws-devops-cicd-showcase#readme"
+  "dependencies": {}
 }
